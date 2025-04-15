@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Subtle Gradient Background for a Clean, Professional Look */
+body {
+  background: linear-gradient(135deg, rgb(250, 248, 248), rgba(228, 219, 219, 0.922)), url('https://source.unsplash.com/1920x1080/?minimal,abstract') no-repeat center center fixed;
+  background-size: cover;
+  background-blend-mode: overlay;
+  color: #333;
+}
+
+
